@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "askForPassword": true,
+            "driver": "MSSQL",
+            "name": "azuresqledge nw",
+            "group": "vps-c9a3d87f",
+            "database": "Northwind",
+            "username": "sa"
+        }
+    ],
+    "dotnet.defaultSolution": "Codele.sln"
+}

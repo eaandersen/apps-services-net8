@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "codele-devkit-demo", "..\codele-devkit-demo", "{13C904DC-8515-4841-9897-864E071BA2DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codele", "Codele\Codele.csproj", "{0914B46E-5FD1-469B-9038-FA936E0B0B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeleLogic", "CodeleLogic\CodeleLogic.csproj", "{66EC40C3-2324-42F4-9F48-63596CBD8B6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Console.EFCore", "..\code-practice\Chapter03\Northwind.Console.EFCore\Northwind.Console.EFCore.csproj", "{5EE05CF6-6594-4339-9DC0-E16D88816F3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0914B46E-5FD1-469B-9038-FA936E0B0B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0914B46E-5FD1-469B-9038-FA936E0B0B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0914B46E-5FD1-469B-9038-FA936E0B0B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0914B46E-5FD1-469B-9038-FA936E0B0B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506D5A0E-FC82-451B-AEEC-B012D97E26B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506D5A0E-FC82-451B-AEEC-B012D97E26B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506D5A0E-FC82-451B-AEEC-B012D97E26B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506D5A0E-FC82-451B-AEEC-B012D97E26B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66EC40C3-2324-42F4-9F48-63596CBD8B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66EC40C3-2324-42F4-9F48-63596CBD8B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66EC40C3-2324-42F4-9F48-63596CBD8B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66EC40C3-2324-42F4-9F48-63596CBD8B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE05CF6-6594-4339-9DC0-E16D88816F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE05CF6-6594-4339-9DC0-E16D88816F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE05CF6-6594-4339-9DC0-E16D88816F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE05CF6-6594-4339-9DC0-E16D88816F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0914B46E-5FD1-469B-9038-FA936E0B0B9B} = {13C904DC-8515-4841-9897-864E071BA2DC}
+		{66EC40C3-2324-42F4-9F48-63596CBD8B6A} = {13C904DC-8515-4841-9897-864E071BA2DC}
+	EndGlobalSection
+EndGlobal
